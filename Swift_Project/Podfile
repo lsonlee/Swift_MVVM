@@ -3,5 +3,11 @@ use_frameworks!
 target 'Swift_Project' do
 
 pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'XWSwiftRefresh'
+pod 'ReachabilitySwift'
+pod 'NVActivityIndicatorView'
+pod 'Moya'
+pod 'ObjectMapper'
 
 end

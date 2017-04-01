@@ -1,12 +1,36 @@
 PODS:
   - Alamofire (4.4.0)
+  - Moya (8.0.3):
+    - Moya/Core (= 8.0.3)
+  - Moya/Core (8.0.3):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - NVActivityIndicatorView (3.6.0)
+  - ObjectMapper (2.2.5)
+  - ReachabilitySwift (3)
+  - Result (3.2.1)
+  - SwiftyJSON (3.1.4)
+  - XWSwiftRefresh (0.1.9)
 
 DEPENDENCIES:
   - Alamofire
+  - Moya
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - ReachabilitySwift
+  - SwiftyJSON
+  - XWSwiftRefresh
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Moya: d3721622e3cc0cc2f038d69a258686f0b66e7252
+  NVActivityIndicatorView: c7c1c4300b418bd9ed06459e78d4df859ddbe31f
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XWSwiftRefresh: 1981ad8f7579da94c94a8e7720803f2579dcde46
 
-PODFILE CHECKSUM: 30d976b31508d85ea6b964b21d08d16114e25b30
+PODFILE CHECKSUM: 9879766ea4eb0c085f84f262e3066cd13c8b95c7
 
 COCOAPODS: 1.2.0
